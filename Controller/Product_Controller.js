@@ -1,8 +1,5 @@
 import Product from "../models/Product.js";
 
-
-// CREATE
-
 export const createProduct = (req, res) => {
 
     Product.create({
@@ -29,9 +26,6 @@ export const createProduct = (req, res) => {
 
 };
 
-
-// GET ALL
-
 export const getProducts = (req, res) => {
 
     Product.find({
@@ -54,8 +48,6 @@ export const getProducts = (req, res) => {
 
 };
 
-
-// GET ONE
 
 export const getSingleProduct = (req, res) => {
 
@@ -81,7 +73,6 @@ export const getSingleProduct = (req, res) => {
 };
 
 
-// UPDATE
 
 export const updateProduct = (req, res) => {
 
